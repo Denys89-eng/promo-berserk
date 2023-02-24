@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("../img/back1.jpg") center center/cover no-repeat;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu {
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    z-index: 30;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #f8f8f8;
+
+}
+
+
+.block {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*block-1*/
+#block1 {
+}
+
+
+.main-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 100px;
+}
+
+.main-wrap .img-part img {
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.video-part video {
+    border-radius: 20px;
+    width: 850px;
+    height: auto;
+}
+
+.main-wrap .text-part .main-header {
+    text-align: center;
+
+    color: #fff;
+    text-shadow: 0 0 2px #ef9292,
+    0 0 4px #fff,
+    0 -2px 4px #ff3,
+    2px -4px 6px #fd3,
+    -2px -6px 11px #f80,
+    2px -8px 18px #f20;
+    font-size: 60px;
+
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.main-wrap .text-part .main-descr {
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+/*finish block-1*/
+
+/*block-2*/
+#block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-text {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    border-radius: 30px;
+}
+
+.back-text .img-block2 img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.back-text .descr-text {
+    color: #a4a3a3;
+    font-size: 25px;
+    padding: 15px 20px;
+    width: 600px;
+}
+
+
+/*block-2*/
+
+
+/*block-3*/
+#block3 {
+}
+
+.cours-wrap {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cours-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #aeaeae;
+}
+
+.block-cours .cours-content {
+    text-align: center;
+}
+
+.block-cours .cours-content .glock {
+    width: 80%;
+    height: 170px;
+}
+
+.block-cours .cours-content .ar15 {
+    width: 100%;
+    height: 150px;
+}
+
+.block-cours .cours-content .all-weapon {
+    width: 100%;
+    height: 200px;
+}
+
+.block-cours .cours-content p {
+    margin: 40px auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #999999;
+
+}
+
+.block-cours .cours-content a {
+    color: #918f8f;
+    padding: 15px 30px;
+    background: #000000;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.block-cours .cours-content h1 {
+    color: #bfbdbd;
+}
+
+.block-cours .cours-content a:hover {
+    transition: .2s;
+    background: #1d1d1d;
+}
+
+.cours-wrap .block-cours {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.cours-wrap .block-cours:hover {
+    box-shadow: 10px 0 0 black;
+    border-bottom: 1px white solid;
+    transition: .4s;
+}
+
+
+.cours-wrap .block-cours .back-cours h1 {
+    color: white;
+    font-size: 30px;
+
+}
+
+
+/*finish block-3*/
+
+/*block-4*/
+#block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+/*finish block-4*/
+#block5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-wrap .inst img {
+    width: 290px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+
+#block6 {
+    position: relative;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.contact-block {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+
+    top: 200px;
+    left: 600px;
+    background: url("../img/back1.jpg") center;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.contact-block h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
